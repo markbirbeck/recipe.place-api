@@ -2,6 +2,8 @@
 
 Create and manage recipes.
 
+[![wercker status](https://app.wercker.com/status/31322bb7ea059cdb9648a4a1822923b2/m/master "wercker status")](https://app.wercker.com/project/bykey/31322bb7ea059cdb9648a4a1822923b2)
+
 ## Description
 
 This service manages recipes. They are stored in a bucket in S3, although the backend uses [Resourceful](https://www.npmjs.com/package/resourceful) which means it is easily switched to use a different storage solution.
