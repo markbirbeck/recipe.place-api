@@ -1,0 +1,29 @@
+{
+  "name": "recipe.place-api",
+  "version": "0.0.0",
+  "description": "API to manage recipes.",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "request": "2.51.0",
+    "resourceful": "0.3.4",
+    "resourceful-model-recipe": "0.1.0",
+    "flatiron": "0.4.2",
+    "restful": "0.4.5",
+    "js-yaml": "3.2.3",
+    "config": "1.9.0",
+    "resourceful-s3": "0.2.0",
+    "union": "~0.4.4",
+    "director": "~1.2.7"
+  },
+  "devDependencies": {
+    "mocha": "2.0.1",
+    "should": "4.4.1",
+    "broadway": "~0.3.6"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "mocha"
+  }
+}
