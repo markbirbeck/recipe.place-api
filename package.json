@@ -1,6 +1,6 @@
 {
   "name": "recipe.place-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "API to manage recipes.",
   "engines": {
     "node": "0.10.x"
